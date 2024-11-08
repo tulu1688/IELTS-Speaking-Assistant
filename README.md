@@ -19,7 +19,6 @@
 ### Cài đặt các thư viện Python
 Chạy lệnh sau để cài đặt các thư viện cần thiết:
 
-```bash
 pip install gtts SpeechRecognition pyaudio google-generativeai pillow
 Lưu ý: Nếu gặp lỗi khi cài đặt pyaudio, hãy thử:
 
@@ -27,13 +26,11 @@ Lưu ý: Nếu gặp lỗi khi cài đặt pyaudio, hãy thử:
 - Trên Ubuntu/Linux: sudo apt install portaudio19-dev
 
 ### 3. **Configuration**
-```markdown
 ## ⚙️ Cấu hình
 
 ### 1. Thay thế API Key
 Mở file Python chính (`IELTS_Speaking_Assistant.py`) và thay thế API key ở **dòng 18**:
 
-```python
 # Thay "Your GenAI key" bằng API key của bạn
 genai.configure(api_key="Your GenAI key")
 Lấy API key từ Google Generative AI Studio.
@@ -41,17 +38,11 @@ Lấy API key từ Google Generative AI Studio.
 2. Thêm file câu hỏi
 Đảm bảo rằng file câu hỏi (IELTS_Speaking_Formatted_Final.txt) có định dạng như sau:
 
-vbnet
-Copy code
 Topic: Sports
 Question: Have you ever supported a sports team? Why/Why not?
 
 Topic: Travel
 Question: What kind of places do you like to visit?
-yaml
-Copy code
-
----
 
 ### 4. **Usage Instructions**
 ## 🚀 Hướng dẫn sử dụng
@@ -69,8 +60,6 @@ Hiển thị kết quả đánh giá và điểm số trên màn hình.
 Nhấn Next Question để chuyển sang câu hỏi tiếp theo.
 yaml
 Copy code
-
----
 
 ### 5. **Project Structure**
 ```
