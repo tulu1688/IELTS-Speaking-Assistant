@@ -26,9 +26,6 @@ Lưu ý: Nếu gặp lỗi khi cài đặt pyaudio, hãy thử:
 - Trên macOS: brew install portaudio
 - Trên Ubuntu/Linux: sudo apt install portaudio19-dev
 
-
----
-
 ### 3. **Configuration**
 ```markdown
 ## ⚙️ Cấu hình
@@ -39,3 +36,48 @@ Mở file Python chính (`IELTS_Speaking_Assistant.py`) và thay thế API key �
 ```python
 # Thay "Your GenAI key" bằng API key của bạn
 genai.configure(api_key="Your GenAI key")
+Lấy API key từ Google Generative AI Studio.
+
+2. Thêm file câu hỏi
+Đảm bảo rằng file câu hỏi (IELTS_Speaking_Formatted_Final.txt) có định dạng như sau:
+
+vbnet
+Copy code
+Topic: Sports
+Question: Have you ever supported a sports team? Why/Why not?
+
+Topic: Travel
+Question: What kind of places do you like to visit?
+yaml
+Copy code
+
+---
+
+### 4. **Usage Instructions**
+## 🚀 Hướng dẫn sử dụng
+
+Chạy ứng dụng bằng Python:
+
+```bash
+python IELTS_Speaking_Assistant.py
+Quy trình sử dụng:
+Nhấn Start để bắt đầu phiên luyện tập.
+Ứng dụng sẽ đọc chủ đề và câu hỏi cho bạn.
+Bắt đầu đếm ngược 45 giây để bạn trả lời.
+Ứng dụng sẽ ghi âm câu trả lời của bạn, chuyển thành văn bản và đánh giá bằng AI.
+Hiển thị kết quả đánh giá và điểm số trên màn hình.
+Nhấn Next Question để chuyển sang câu hỏi tiếp theo.
+yaml
+Copy code
+
+---
+
+### 5. **Project Structure**
+```
+📦 IELTS-Speaking-Assistant
+├── IELTS-logo.png # Logo của ứng dụng
+├── IELTS_Speaking_Assistant.py # File Python chính
+├── IELTS_Speaking_Formatted_Final.txt # File câu hỏi
+├── temp.mp3 # File âm thanh tạm thời
+├── README.md # Tài liệu hướng dẫn
+```
