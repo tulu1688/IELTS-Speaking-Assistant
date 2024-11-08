@@ -20,32 +20,15 @@
 Chạy lệnh sau để cài đặt các thư viện cần thiết:
 
 pip install gtts SpeechRecognition pyaudio google-generativeai pillow
-Lưu ý: Nếu gặp lỗi khi cài đặt pyaudio, hãy thử:
 
-- Trên macOS: brew install portaudio
-- Trên Ubuntu/Linux: sudo apt install portaudio19-dev
+### 3. **Usage Instructions**
+## 🚀 Hướng dẫn sử dụng
 
-### 3. **Configuration**
-## ⚙️ Cấu hình
-
-### 1. Thay thế API Key
 Mở file Python chính (`IELTS_Speaking_Assistant.py`) và thay thế API key ở **dòng 18**:
 
 # Thay "Your GenAI key" bằng API key của bạn
 genai.configure(api_key="Your GenAI key")
 Lấy API key từ Google Generative AI Studio.
-
-2. Thêm file câu hỏi
-Đảm bảo rằng file câu hỏi (IELTS_Speaking_Formatted_Final.txt) có định dạng như sau:
-
-Topic: Sports
-Question: Have you ever supported a sports team? Why/Why not?
-
-Topic: Travel
-Question: What kind of places do you like to visit?
-
-### 4. **Usage Instructions**
-## 🚀 Hướng dẫn sử dụng
 
 Chạy ứng dụng bằng Python:
 
@@ -61,7 +44,7 @@ Quy trình sử dụng:
 5. Hiển thị kết quả đánh giá và điểm số trên màn hình.
 6. Nhấn Next Question để chuyển sang câu hỏi tiếp theo.
 
-### 5. **Project Structure**
+### 4. **Project Structure**
 ```
 📦 IELTS-Speaking-Assistant
 ├── IELTS-logo.png # Logo của ứng dụng
@@ -70,3 +53,7 @@ Quy trình sử dụng:
 ├── temp.mp3 # File âm thanh tạm thời
 ├── README.md # Tài liệu hướng dẫn
 ```
+
+### 5. **Project Structure**
+
+- **Long Data Analyst** - Tác giả và nhà phát triển của IELTS Speaking Assistant. Theo dõi kênh TikTok: [@vuthanhlong25aus](https://www.tiktok.com/@vuthanhlong25aus)
