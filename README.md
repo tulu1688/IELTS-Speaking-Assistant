@@ -51,15 +51,15 @@ Chạy ứng dụng bằng Python:
 
 ```bash
 python IELTS_Speaking_Assistant.py
+```
+
 Quy trình sử dụng:
-Nhấn Start để bắt đầu phiên luyện tập.
-Ứng dụng sẽ đọc chủ đề và câu hỏi cho bạn.
-Bắt đầu đếm ngược 45 giây để bạn trả lời.
-Ứng dụng sẽ ghi âm câu trả lời của bạn, chuyển thành văn bản và đánh giá bằng AI.
-Hiển thị kết quả đánh giá và điểm số trên màn hình.
-Nhấn Next Question để chuyển sang câu hỏi tiếp theo.
-yaml
-Copy code
+1. Nhấn Start để bắt đầu phiên luyện tập.
+2. Ứng dụng sẽ đọc chủ đề và câu hỏi cho bạn.
+3. Bắt đầu đếm ngược 45 giây để bạn trả lời.
+4. Ứng dụng sẽ ghi âm câu trả lời của bạn, chuyển thành văn bản và đánh giá bằng AI.
+5. Hiển thị kết quả đánh giá và điểm số trên màn hình.
+6. Nhấn Next Question để chuyển sang câu hỏi tiếp theo.
 
 ### 5. **Project Structure**
 ```
