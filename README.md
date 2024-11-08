@@ -24,19 +24,27 @@ pip install gtts SpeechRecognition pyaudio google-generativeai pillow
 ### 3. **Usage Instructions**
 ## 🚀 Hướng dẫn sử dụng
 
+##### 1. Thay thế API Key
+
 Mở file Python chính (`IELTS_Speaking_Assistant.py`) và thay thế API key ở **dòng 18**:
+Lấy API key từ [Google Generative AI Studio](https://aistudio.google.com/app/apikey).
+
+```python
+# Thay "Your GenAI key" bằng API key của bạn
+genai.configure(api_key="Your GenAI key")
+```
 
 # Thay "Your GenAI key" bằng API key của bạn
 genai.configure(api_key="Your GenAI key")
 Lấy API key từ Google Generative AI Studio.
 
+##### 2. Chạy chương trình
 Chạy ứng dụng bằng Python:
 
 ```bash
 python IELTS_Speaking_Assistant.py
 ```
-
-Quy trình sử dụng:
+##### 3. Quy trình sử dụng
 1. Nhấn Start để bắt đầu phiên luyện tập.
 2. Ứng dụng sẽ đọc chủ đề và câu hỏi cho bạn.
 3. Bắt đầu đếm ngược 45 giây để bạn trả lời.
@@ -54,6 +62,6 @@ Quy trình sử dụng:
 ├── README.md # Tài liệu hướng dẫn
 ```
 
-### 5. **Project Structure**
+## 📜 Tác giả 
 
 - **Long Data Analyst** - Tác giả và nhà phát triển của IELTS Speaking Assistant. Theo dõi kênh TikTok: [@vuthanhlong25aus](https://www.tiktok.com/@vuthanhlong25aus)
