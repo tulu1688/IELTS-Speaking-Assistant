@@ -14,7 +14,6 @@
 
 ### Yêu cầu:
 1. **Python 3.8+** đã cài đặt trên máy.
-2. **API Key của Google Generative AI**: Lấy API key từ [Google Generative AI Studio](https://aistudio.google.com/app/apikey).
 
 ### Cài đặt các thư viện Python
 Chạy lệnh sau để cài đặt các thư viện cần thiết:
@@ -33,10 +32,6 @@ Lấy API key từ [Google Generative AI Studio](https://aistudio.google.com/app
 # Thay "Your GenAI key" bằng API key của bạn
 genai.configure(api_key="Your GenAI key")
 ```
-
-# Thay "Your GenAI key" bằng API key của bạn
-genai.configure(api_key="Your GenAI key")
-Lấy API key từ Google Generative AI Studio.
 
 ##### 2. Chạy chương trình
 Chạy ứng dụng bằng Python:
