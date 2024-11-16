@@ -18,6 +18,7 @@
 ### Cài đặt các thư viện Python
 Chạy lệnh sau để cài đặt các thư viện cần thiết:
 
+```
 sudo apt install python3-tk
 sudo apt-get install python3-pyaudio
 sudo apt-get install portaudio19-dev
@@ -27,6 +28,7 @@ pip3 install --upgrade pip setuptools wheel
 
 pip3 install gtts SpeechRecognition pyaudio google-generativeai pillow
 pip3 install --upgrade Pillow
+```
 
 ### 3. **Usage Instructions**
 ## 🚀 Hướng dẫn sử dụng
